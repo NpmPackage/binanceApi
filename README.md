@@ -32,7 +32,7 @@ client = binanceApi()
 ```
 #### Import for private (auth required) endpoints
 ```js
-const btcTurkClient = require('binance-nodejs-api')
+const binanceApi = require('binance-nodejs-api')
 client = binanceApi(API_KEY, API_SECRET)
 ```
 ## Usage
