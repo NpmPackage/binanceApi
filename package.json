@@ -1,0 +1,23 @@
+{
+    "name": "Binance Spot API",
+    "version": "1.0.3",
+    "description": "It has been recompiled by making updates on the berke0bayraktar project.",
+    "main": "index.js",
+    "scripts": {
+        "test": "echo \"Error: no test specified\" && exit 1"
+    },
+    "repository": {
+        "type": "git",
+        "url": "git+https://github.com/NpmPackage/binanceApi.git"
+    },
+    "keywords": [],
+    "author": "https://github.com/NpmPackage/binanceApi",
+    "license": "ISC",
+    "bugs": {
+        "url": "https://github.com/NpmPackage/Binance/issues"
+    },
+    "homepage": "https://github.com/NpmPackage/Binance#readme",
+    "dependencies": {
+        "btcturk": "^1.0.3"
+    }
+}
