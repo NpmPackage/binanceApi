@@ -130,7 +130,7 @@ module.exports = function (apiKey = null, apiSecret = null) {
             });
 
         } catch (error) {
-            console.log(error.message)
+            throw new Error(error.message || error)
         }
     }
     /**
@@ -174,7 +174,7 @@ module.exports = function (apiKey = null, apiSecret = null) {
             });
 
         } catch (error) {
-            console.log(error.message)
+            throw new Error(error.message || error)
         }
     }
     /**
@@ -216,7 +216,7 @@ module.exports = function (apiKey = null, apiSecret = null) {
             });
 
         } catch (error) {
-            console.log(error.message)
+            throw new Error(error.message || error)
         }
     }
     /**
@@ -276,7 +276,7 @@ module.exports = function (apiKey = null, apiSecret = null) {
             });
 
         } catch (error) {
-            console.log(error.message)
+            throw new Error(error.message || error)
         }
     }
     /**
@@ -312,7 +312,7 @@ module.exports = function (apiKey = null, apiSecret = null) {
             });
 
         } catch (error) {
-            console.log(error.message)
+            throw new Error(error.message || error)
         }
     }
     /**
@@ -375,7 +375,7 @@ module.exports = function (apiKey = null, apiSecret = null) {
             });
 
         } catch (error) {
-            console.log(error.message)
+            throw new Error(error.message || error)
         }
     }
     /**
@@ -401,7 +401,7 @@ module.exports = function (apiKey = null, apiSecret = null) {
             });
 
         } catch (error) {
-            console.log(error.message)
+            throw new Error(error.message || error)
         }
     }
     /**
@@ -449,7 +449,7 @@ module.exports = function (apiKey = null, apiSecret = null) {
             });
 
         } catch (error) {
-            console.log(error.message)
+            throw new Error(error.message || error)
         }
     }
 
